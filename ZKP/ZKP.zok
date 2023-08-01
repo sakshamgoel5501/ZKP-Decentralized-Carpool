@@ -1,0 +1,21 @@
+import "hashes/sha256/512bitPacked" as sha256packed;
+
+def main(private field a, private field b, private field c, private field d, field h0, field h1) {
+    field[2] h = sha256packed([a, b, c, d]);
+
+    assert(h[0] == h0);
+    assert(h[1] == h1);
+    return;
+}
+
+
+    // e.g.,
+    // a = 0
+    // b = 0
+    // c = 0
+    // d = 97
+    // then h0 = 45324487246557938747332883189457400843
+    //      h1 = 84478852209878349000735790184433475398
+
+
+

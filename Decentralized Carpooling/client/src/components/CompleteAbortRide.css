@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+.center .inputbox [type="submit"] {
+    width: 30vw;
+    background: dodgerblue;
+    color: #fff;
+    border: #fff;
+    font-size:1em;
+    margin-top: 3vh;
+    margin-left: -2vw;
+}
+
+.center .inputbox:hover [type="submit"] {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+    cursor: pointer;
+}
+
+.center .inputbox [type="button"] {
+    width: 30vw;
+    background: firebrick;
+    color: #fff;
+    border: #fff;
+    font-size:1em;
+    margin-top: 2vh;
+    margin-left: -2vw;
+}
+
+.center .inputbox:hover [type="button"] {
+    background: linear-gradient(45deg, rgb(231, 232, 220), firebrick);
+    cursor: pointer;
+}
+
+.center h1 {
+    font-size: 18px;
+    border-left: 5px solid rgb(238, 177, 202);
+    padding: 5px;
+    color: #000;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+

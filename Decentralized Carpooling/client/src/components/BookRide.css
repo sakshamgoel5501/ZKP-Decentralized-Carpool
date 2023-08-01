@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+.center {
+    margin: auto;
+    padding: 10px 70px;
+    background: #fff;
+    border: solid #E3E3E3 1px;
+    border-radius: 20px;
+    width: 40vw;
+    height: 45vh;
+    margin-top: 1vw;
+}
+
+/* .center h1 {
+    font-size: 14px;
+    border-left: 5px solid rgb(238, 177, 202);
+    padding: 5px;
+    color: #000;
+    letter-spacing: 5px;
+    margin-top: -0.1vh;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-left: 0.8vw;
+    margin-bottom: 7vh;
+} */
+
+.center .inputbox {
+    position: relative;
+    width: 95%;
+    height: 10px;
+    margin-top: -3vh;
+}
+
+.center .inputbox input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid #000;
+    outline: none;
+    background: none;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    margin-left: 0.5vw;
+}
+
+.center .inputbox:last-child {
+    margin-bottom: 0;
+}
+
+.center .inputbox [type="submit"] {
+    width: 20vw;
+    background: dodgerblue;
+    color: #fff;
+    border: #fff;
+    font-size:1em;
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+}
+
+.center .inputbox:hover [type="submit"] {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+    cursor: pointer;
+}
+
+.center .form {
+    margin-top: 4vh;
+}
+
+.eligibleDrivers {
+    margin-top: 3vh;
+    margin-left: 10vw;
+    width: 60vw;
+    height: 43vh;
+    border: solid #c0bbbb 1px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.driverNumber {
+    margin-left: 3vw;
+    width: max-content;
+}
+
+.name {
+    margin-top: -1vh;
+    margin-left: 3vw;
+    float: left;
+}
+
+.address {
+    float: right;
+    margin-right: 3vw;
+    margin-top: -1vh;
+}
+
+.phoneNumber {
+    margin-top: 10vh;
+    margin-left: 3vw;
+}
+
+.rating {
+    margin-left: 3vw;
+    margin-top: -1vh;
+}
+
+.car {
+    float: right;
+    margin-right: 3vw;
+    margin-top: -6vh;
+}
+
+.fare {
+    float: right;
+    margin-right: 3vw;
+    margin-top: -6vh;
+}
+
+.divider {
+    color: aliceblue;
+}
+
+
+
+

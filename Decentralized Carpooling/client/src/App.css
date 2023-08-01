@@ -1,0 +1,210 @@
+.sidebar {
+  width : 20%;
+  height : 100vh;
+  /* When you set the height to 100vh, the box element will stretch its height to the full height of the 
+  viewport regardless of its parent height. */
+  background-color : black;
+  float: left;
+}
+
+.contact {
+  color : aliceblue;
+  position: absolute;
+  bottom: 50px;
+}
+
+.divider {
+  color: aliceblue;
+}
+
+.driverRegistration {
+  color : aliceblue;
+  text-align: center;
+  height: 11vh;
+  line-height: 11vh;
+}
+
+.findPassengers {
+  color : aliceblue;
+  text-align: center;
+  height: 9vh;
+  line-height: 9vh;
+}
+
+.searchRide {
+  color : aliceblue;
+  text-align: center;
+  height: 9vh;
+  line-height: 9vh;
+}
+
+.findPassengers:hover {
+  color: rgb(157, 189, 211);
+  cursor: pointer;
+  border-left: .15em solid rgb(157, 189, 211);
+}
+
+.searchRide:hover {
+  color: rgb(157, 189, 211);
+  cursor: pointer;
+  border-left: .15em solid rgb(157, 189, 211);
+}
+
+.driverRegistration:hover {
+  color: rgb(157, 189, 211);
+  cursor: pointer;
+  border-left: .15em solid rgb(157, 189, 211);
+}
+
+.copyright {
+  color : aliceblue;
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+.display {
+  width: 80%;
+  float: right;
+}
+
+.logo {
+  width : 40%;
+  height : 40%;
+  margin-left : 30%;
+  margin-top : 2%;
+}
+
+.css-typing p {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 5vw;
+  margin-top: 4vh;
+}
+.css-typing p:nth-child(1) {
+  width: 70vw;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type 5s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 70vw;
+  opacity: 0;
+  -webkit-animation: type2 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 41vw;
+  opacity: 0;
+  -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+
+
